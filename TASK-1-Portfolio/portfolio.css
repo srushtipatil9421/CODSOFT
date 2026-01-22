@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background:whitesmoke;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #111;
+  position: sticky;
+  top: 0;
+}
+
+.navbar h2 {
+  color: #00ff99;;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #00ff99;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 40px;
+   min-height: 30vh;   
+}
+ 
+
+.hero-text h1 {
+  font-size: 40px;
+  color:#fff
+}
+
+.hero-text span {
+  color: #00ff99;;
+  text-shadow:0 0 10px rgba(0,255,153,0,8) ; 
+}
+.hero-text p {
+  color: #e0e0e0;     
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: whitesmoke;
+  color: #000;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 3px solid #00ff99;
+}
+
+.btn.outline {
+  background:whitesmoke;
+  border: 3px solid #00ff99;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+section {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.skill-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.skill {
+  background: rgb(201, 200, 200);
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 20px;
+  transition: transform 0.3s;
+  border: 2px solid black
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+
+}
+
+.project-card {
+  background:rgb(201, 200, 200);
+  margin: 15px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 2px solid black
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  padding: 15px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("background.jpeg");
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   
+}

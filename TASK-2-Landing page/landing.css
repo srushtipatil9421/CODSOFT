@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+ .main-header {
+  background: url("background-1.jpeg") no-repeat center center;
+  background-size: cover;
+  min-height: 60vh;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background:transparent;
+}
+
+.logo {
+  font-size: 28px;
+  color: #2e7d32;
+}
+
+.logo span {
+  color: #66bb6a;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  color:rgb(1, 32, 10);
+  font-weight:800;
+}
+
+.navbar a:hover {
+  color: #2e7d32;
+}
+
+.hero {
+  min-height: calc(60vh - 40px);
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+ 
+.hero-box {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter:blur(3px);
+  padding: 40px;
+  max-width: 450px;
+  border-radius: 15px;
+}
+
+.hero-box h2 {
+  font-size: 42px;
+  color: #2e7d32;
+}
+.explore-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #2e7d32;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight:500;
+}
+
+.hero-box p {
+  margin: 20px 0;
+  color: #555;
+}
+
+.hero-box button {
+  padding: 12px 30px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.fruits {
+  padding: 70px;
+  background: rgba(255, 255, 255, 0.95);
+  text-align: center;
+}
+
+.fruits h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #2e7d32;
+}
+
+.fruit-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.fruit-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transition: 0.4s;
+}
+
+.fruit-card:hover {
+  transform: translateY(-10px);
+}
+
+.fruit-card img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.benefits {
+  padding: 70px;
+  background: rgba(245, 255, 245, 0.95);
+}
+
+.benefits h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #2e7d32;
+}
+
+.benefit-list {
+  max-width: 900px;
+  margin: auto;
+}
+
+.benefit {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-left: 6px solid #66bb6a;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #444;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-left: 20px;
+  }
+}
+
+.page-content {
+  background: url("background-2.jpeg") no-repeat center center/cover;
+}
+
+footer {
+  background: #1b5e20;
+  color: #e8f5e9;
+  padding: 10px 10px;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-brand h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-brand span {
+  color: #81c784;
+}
+
+.footer-links a {
+  display: block;
+  color: #c8e6c9;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #a5d6a7;
+}
+
+
